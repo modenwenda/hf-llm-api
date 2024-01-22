@@ -10,17 +10,17 @@ app_port: 23333
 ## HF-LLM-API
 Huggingface LLM Inference API in OpenAI message format.
 
-Project link: https://github.com/Hansimov/hf-llm-api
+Project link: https://github.com/Niansuh/hf-llm-api
 
 ## Features
 
-- Available Models (2024/01/22): [#5](https://github.com/Hansimov/hf-llm-api/issues/5)
+- Available Models (2024/01/22): [#1](https://github.com/Niansuh/hf-llm-api/issues/1)
   - `mistral-7b`, `mixtral-8x7b`, `nous-mixtral-8x7b`
   - Adaptive prompt templates for different models
 - Support OpenAI API format
   - Enable api endpoint via official `openai-python` package
 - Support both stream and no-stream response
-- Support API Key via both HTTP auth header and env varible [#4](https://github.com/Hansimov/hf-llm-api/issues/4)
+- Support API Key via both HTTP auth header and env varible [#2](https://github.com/Niansuh/hf-llm-api/issues/2)
 - Docker deployment
 
 ## Run API service
@@ -62,7 +62,7 @@ sudo docker run -p 23333:23333 --env http_proxy="http://<server>:<port>" hf-llm-
 
 ### Using `openai-python`
 
-See: [`examples/chat_with_openai.py`](https://github.com/Hansimov/hf-llm-api/blob/main/examples/chat_with_openai.py)
+See: [`examples/chat_with_openai.py`](https://github.com/Niansuh/hf-llm-api/blob/main/examples/chat_with_openai.py)
 
 ```py
 from openai import OpenAI
@@ -97,7 +97,7 @@ for chunk in response:
 
 ### Using post requests
 
-See: [`examples/chat_with_post.py`](https://github.com/Hansimov/hf-llm-api/blob/main/examples/chat_with_post.py)
+See: [`examples/chat_with_post.py`](https://github.com/Niansuh/hf-llm-api/blob/main/examples/chat_with_post.py)
 
 
 ```py
