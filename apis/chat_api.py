@@ -21,7 +21,7 @@ class ChatAPIApp:
     def __init__(self):
         self.app = FastAPI(
             docs_url="/",
-            title="HuggingFace LLM API",
+            title="HuggingFace LLM API | Niansuh",
             swagger_ui_parameters={"defaultModelsExpandDepth": -1},
             version="1.0",
         )
