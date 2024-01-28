@@ -48,11 +48,11 @@ class ChatAPIApp:
                     "owned_by": "mistralai",
                 },
                 {
-                    "id": "nous-mixtral-8x7b",
-                    "description": "[NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO]: https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+                    "id": "Yi-34Bx2-MoE-60B",
+                    "description": "[cloudyu/Yi-34Bx2-MoE-60B]: https://huggingface.co/cloudyu/Yi-34Bx2-MoE-60B",
                     "object": "model",
                     "created": 1700000000,
-                    "owned_by": "NousResearch",
+                    "owned_by": "cloudyu",
                 },
             ],
         }
